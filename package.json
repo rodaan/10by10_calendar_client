@@ -1,0 +1,28 @@
+{
+  "name": "10by10calendar",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "cors": "^2.8.4",
+    "express": "^4.16.2",
+    "moment": "^2.21.0",
+    "mongoose": "^5.0.9",
+    "path": "^0.12.7",
+    "react": "^16.2.0",
+    "react-big-calendar": "^0.18.0",
+    "react-dnd": "^2.5.4",
+    "react-dnd-html5-backend": "^2.5.4",
+    "react-dom": "^16.2.0",
+    "react-scripts": "1.1.1"
+  },
+  "scripts": {
+    "goreact": "react-scripts start",
+    "start": "yarn build && node index.js",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "main": "index.js",
+  "license": "MIT"
+}
